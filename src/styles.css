@@ -16,7 +16,7 @@ body {
 
 .hero {
   width: 100%;
-  height: 60vh;
+  height: 72vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,14 +34,14 @@ body {
   z-index: -1;
 }
 
-.wrapper_img {
+.wrapper__img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .logo {
-  width: 95%;
+  width: 100%;
 }
 
 /* Navbar Dropdown Styles */
@@ -115,7 +115,7 @@ body {
 }
 
 .section__titulo {
-  font-size: 1em;
+  font-size: 1.2em;
   padding: 20px 0;
 }
 
@@ -156,7 +156,7 @@ body {
 
 .text--italic {
   font-style: italic;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .footer {
@@ -184,7 +184,7 @@ body {
 
 .footer__item--color {
   color: #9b9b9b;
-  font-size: 0.7em;
+  font-size: 0.8em;
   padding: 5px 0;
 }
 
@@ -235,6 +235,7 @@ body {
   }
 
   .logo {
+    margin-top: 90px;
     width: 95%;
   }
   .header {
@@ -255,12 +256,12 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
- .main {
-     margin-top: 185px;
+ .container {
+     margin-top: 25px;
  }
   .hero {
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,12 +308,15 @@ body {
     left: 15%;
   }
 
-  .main {
+  .container {
     padding: 55px 120px 55px 120px;
     display: flex;
     justify-content: center;
   }
 
+  .banner {
+    height: 450px;
+  }
   .section__titulo {
       padding-top: 0;
   }
@@ -329,6 +333,11 @@ body {
 
   .publicidad {
     display: block;
+  }
+  .publicidad__img {
+    position: sticky;
+    top: 0;
+    z-index: -1;
   }
 
   .section__titulo--style {
@@ -356,5 +365,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 64px;
+  }
+
+  .footer__icon {
+    margin: 10px;
+    width: 34px;
   }
 }
