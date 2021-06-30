@@ -1,3 +1,9 @@
+/**
+   * --------------------------------------------------------------------------
+    Parallax
+   * --------------------------------------------------------------------------
+ */
+
 window.addEventListener('scroll', function () {
   const parallax = document.querySelector('.parallaxV')
   const logo = document.querySelector('.logo')

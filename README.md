@@ -4,17 +4,25 @@ A plugin was created for the menu of mobile and tablet resolutions. We also crea
 
 ### Pre-requisites 📋
 
-Install node_modules to use webpack
-
-## Run Server ⚙️
+```
+npm install --save-dev webpack
 
 ```
-npx webpack serve
+
+## Run Server - Build ⚙️
+
+```
+npm run dev
+
+```
+```
+npm run build
+
 ```
 
 ## Autores ✒️
 
 
-* **Andrew ALfaro** 
+* **Andrew Alfaro** 
 
 ---
